@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/OneAppReact/static/css/main.f766c712.css",
+    "main.js": "/OneAppReact/static/js/main.fbbd0b63.js",
+    "static/media/primeicons.svg": "/OneAppReact/static/media/primeicons.c6e2053303524e39530c.svg",
+    "static/media/primeicons.eot": "/OneAppReact/static/media/primeicons.7fc4d8e224d1ff1b9c62.eot",
+    "static/media/primeicons.woff": "/OneAppReact/static/media/primeicons.449aa8c65cdc5c2a8686.woff",
+    "static/media/primeicons.ttf": "/OneAppReact/static/media/primeicons.91bacab1f083f2795272.ttf",
+    "index.html": "/OneAppReact/index.html",
+    "main.f766c712.css.map": "/OneAppReact/static/css/main.f766c712.css.map",
+    "main.fbbd0b63.js.map": "/OneAppReact/static/js/main.fbbd0b63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f766c712.css",
+    "static/js/main.fbbd0b63.js"
+  ]
+}
