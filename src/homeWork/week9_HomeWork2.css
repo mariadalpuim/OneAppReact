@@ -1,0 +1,54 @@
+.animations-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#animation-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: yellow;
+}
+
+#animation {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 60px;
+  left: 65px;
+  background: red;
+}
+
+#gesturesAnimation-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: pink;
+}
+
+#gesturesAnimation {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 60px;
+  left: 65px;
+  background: white;
+  border-radius: 20%;
+}
+
+#dragAnimation-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: rgb(112, 149, 218);
+}
+
+#dragAnimation {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 60px;
+  left: 65px;
+  background: rgb(54, 205, 231);
+  border-radius: 20%;
+}
