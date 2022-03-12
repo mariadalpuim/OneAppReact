@@ -13,6 +13,7 @@ function CP31() {
     <div className='app-container'>
       <_NavBarCP />
       <div className="content">
+      <h1>Form</h1>
         <div className='bodyE17'>
             <form action="#" className='formMain'>
               <div className='inputE17'>

@@ -1,12 +1,12 @@
 .bodyE17 {
-  height: 100vh;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .formMain {
-  width: 25vw;
+  width: 40vw;
   padding: 25px;
   background-color: blanchedalmond;
 
