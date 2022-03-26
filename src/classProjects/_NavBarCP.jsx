@@ -9,6 +9,8 @@ function _NavBarCP() {
             <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/week9_CP31">Week 09 - CP31</NavLink></li>
             <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/week10_CP32">Week 10 - CP32</NavLink></li>
             <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/week10_CP33">Week 10 - CP33</NavLink></li>
+            <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/week10_CP34">Week 10 - CP34</NavLink></li>
+            <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/week10_CP35">Week 10 - CP35</NavLink></li>
         </ul>
     </nav>
   )

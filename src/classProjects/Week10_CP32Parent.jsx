@@ -8,12 +8,16 @@ function Week10P32() {
     <div className='app-container'>
       <_NavBarCP />
       <div className="content">
-        <h1>Props</h1>
+        <h2>Props</h2>
         <Week10_CP32Child 
         salary={20000}
         taxes={10}
         calc={(salary) => (salary*10)}
-        arr={['20, ','30, ','I wish']}
+        arr1={['20, ','30, ','I wish']}
+
+
+        someText="Justin's work for Project 32"
+        arr={['blue', 'green', 'red']}
         />
         </div>
     </div>

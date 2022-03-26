@@ -13,6 +13,8 @@ import Week10_01_PropsParent from './classMaterial/week10/Week10_01_PropsParent'
 import Week10_02_useState from './classMaterial/week10/Week10_02_useState';
 import Week10_03_useState from './classMaterial/week10/Week10_03_useState';
 import Week10_04_useEffect from './classMaterial/week10/Week10_04_useEffect';
+import Week10_05_EventsP from './classMaterial/week10/Week10_05_EventsP';
+import Week10_06_Forms from './classMaterial/week10/Week10_06_Forms';
 import Week11_01_Placeholder from './classMaterial/week11/Week11_01_Placeholder';
 import Week9_HomeWork1 from './homeWork/Week9_HomeWork1';
 import Week9_HomeWork2 from './homeWork/Week9_HomeWork2';
@@ -20,6 +22,8 @@ import Week10_HomeWork1 from './homeWork/Week10_HomeWork1';
 import Week9_CP31 from './classProjects/Week9_CP31';
 import Week10_CP32Parent from './classProjects/Week10_CP32Parent';
 import Week10_CP33 from './classProjects/Week10_CP33';
+import Week10_CP34 from './classProjects/Week10_CP34';
+import Week10_CP35 from './classProjects/Week10_CP35';
 
 ReactDOM.render(
   // prettier-ignore
@@ -32,10 +36,14 @@ ReactDOM.render(
       <Route path='/classMaterial/week10/week10_02' element={<Week10_02_useState />}/>
       <Route path='/classMaterial/week10/week10_03' element={<Week10_03_useState />}/>
       <Route path='/classMaterial/week10/week10_04' element={<Week10_04_useEffect />}/>
+      <Route path='/classMaterial/week10/week10_05' element={<Week10_05_EventsP />}/>
+      <Route path='/classMaterial/week10/week10_06' element={<Week10_06_Forms />}/>
       <Route path='/classMaterial/week11/week11_01' element={<Week11_01_Placeholder />}/>
       <Route path='/classProjects/week9_CP31'element={<Week9_CP31 />}/>
       <Route path='/classProjects/week10_CP32'element={<Week10_CP32Parent />}/>
       <Route path='/classProjects/week10_CP33'element={<Week10_CP33 />}/>
+      <Route path='/classProjects/week10_CP34'element={<Week10_CP34 />}/>
+      <Route path='/classProjects/week10_CP35'element={<Week10_CP35 />}/>
       <Route path='/homeWork/week9_homework1'element={<Week9_HomeWork1 />}/>
       <Route path='/homeWork/week9_homework2'element={<Week9_HomeWork2 />}/>
       <Route path='/homeWork/week10_homework1'element={<Week10_HomeWork1 />}/>

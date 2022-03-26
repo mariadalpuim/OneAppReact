@@ -9,8 +9,10 @@ function _NavBarCM() {
         <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week9/week9_01">Week 09 - First App</NavLink></li>
         <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week10/week10_01">Week 10 - Props</NavLink></li>
         <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week10/week10_02">Week 10 - useState</NavLink></li>
-        <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week10/week10_03">Week 10 - useState and Custom Hooks</NavLink></li>
+        {/* <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week10/week10_03">Week 10 - useState and Custom Hooks</NavLink></li> */}
         <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week10/week10_04">Week 10 - useEffect</NavLink></li>
+        <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week10/week10_05">Week 10 - Events</NavLink></li>
+        <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week10/week10_06">Week 10 - Forms</NavLink></li>
         <li><NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/week11/week11_01">Week 11 - Placeholder</NavLink></li>
     </ul>
 </nav>

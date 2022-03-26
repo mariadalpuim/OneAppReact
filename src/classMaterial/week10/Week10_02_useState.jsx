@@ -5,27 +5,19 @@ import Week10_03_CustomHooks from './Week10_03_CustomHooks'
 
 function Week10_02_useState() {
     const [count, setCount] = useState(0)
-    // const [btnState, setbtnState] = useState(true)
-    //custom hook 
-    const [btnState, toggle] = Week10_03_CustomHooks(true)
-    //count - reference to the state
-    // setcount - the function/callback to change the state
-    // useState(0) initial value state
+    const [btnState, setbtnState] = useState(true)
+
     console.log(count);
 
     const updateCount = () => {
         setCount((c) => (c + 1))
     }
 
-  //   const updateButton = () => {
-  //     setbtnState(!btnState)
-  // }
-
     const updateButton = () => {
-        toggle(!btnState)
-    }
+      setbtnState(!btnState)
+  }
 
-  return (
+   return (
     //prettier-ignore
     <div className='app-container'>
     <_NavBarCM />
